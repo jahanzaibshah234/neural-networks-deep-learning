@@ -69,13 +69,9 @@ Data is preprocessed with `StandardScaler` and split 80/20 into training and tes
 | **Actual 0** | 99 | 3 |
 | **Actual 1** | 7 | 96 |
 
-![Confusion Matrix](confusion_matrix.png)
-
 ### Training vs. Validation Accuracy
 
 Training accuracy converges to ~0.98–0.99 while validation accuracy stabilizes around 0.93–0.95 over 50 epochs, indicating good convergence with limited overfitting thanks to the Dropout layer.
-
-![Accuracy Curve](accuracy_curve.png)
 
 ## Tools and Technologies
 
