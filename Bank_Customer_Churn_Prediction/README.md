@@ -101,13 +101,13 @@ The dataset is imbalanced. A prediction threshold of **0.35** (instead of the de
 | **Actual: Stay** | 1,479 (TN) | 128 (FP) |
 | **Actual: Churn** | 161 (FN) | 232 (TP) |
 
-![Confusion Matrix](confusion_matrix.png)
+![Confusion Matrix](notebook/confusion_matrix.png)
 
 ### Training Curves
 
 | Accuracy | Loss |
 |---|---|
-| ![Accuracy Curve](accuracy_curve.png) | ![Loss Curve](loss_curve.png) |
+| ![Accuracy Curve](notebook/accuracy_curve.png) | ![Loss Curve](notebook/loss_curve.png) |
 
 Both curves converge stably by ~epoch 20. Validation accuracy briefly exceeds training accuracy in early epochs — expected behavior with Dropout active only during training.
 
