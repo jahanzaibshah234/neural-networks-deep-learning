@@ -1,0 +1,6 @@
+numpy
+Pandas
+Scikit-Learn
+TensorFlow
+Matplotlib
+joblib

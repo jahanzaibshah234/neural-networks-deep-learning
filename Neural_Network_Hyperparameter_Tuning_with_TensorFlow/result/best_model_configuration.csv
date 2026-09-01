@@ -1,0 +1,2 @@
+Architecture,Optimizer,Learning Rate,Activation,Dropout,Batch Size,Test Accuracy
+"(64, 32, 16)",adam,0.001,tanh,0.2,32,0.8644999861717224
